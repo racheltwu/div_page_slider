@@ -3,7 +3,12 @@ Div Page Slider
 
 About
 -----
-DivPageSlider is a pluggable jQuery app that takes a list of divs and scrolls them all the way off the page horizontally.
+DivPageSlider is a pluggable jQuery app that takes a list of divs and scrolls them all the way off the page horizontally. Matches a hash link to a div with the corresponding ID, that way it degrades gracefully by linking to the div on the page via ID.
+
+
+Demo
+----
+View a working demo [here](http://racheltwu.github.io/div_page_slider).
 
 
 HTML
