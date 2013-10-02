@@ -1,0 +1,19 @@
+html {
+    overflow-y: scroll;
+}
+.sliding-panes {
+    overflow: hidden;
+}
+.sliding-pane {
+    position: relative;
+    float: left;
+    left: 50%;
+}
+.sliding-pane > div{
+    position: relative;
+    float: left;
+    left: -50%;
+}
+.clear {
+    clear: both;
+}
