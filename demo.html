@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Div Page Slider Demo</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="div-page-slider.min.js"></script>
+    <link type="text/css" rel="stylesheet" media="screen" href="div-page-slider.css" />
+    <style>
+        .sliding-pane {
+            width: 70%;
+            margin: 20px 0;
+        }
+        .sliding-pane > div {
+            background: #ddd;
+            padding: 30px;
+        }
+        #nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="#one">One</a>
+        <a href="#two">Two</a>
+        <a href="#three">Three</a>
+    </div>
+
+    <div class="sliding-panes">
+        <div id="one" class="sliding-pane"><div>
+            <h1>One</h1>
+            <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+            laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+            sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+        </div></div>
+        <div class="clear"></div>
+        <div id="two" class="sliding-pane"><div>
+            <h1>Two</h1>
+            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+            a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+            Vivamus elementum semper nisi.</p>
+        </div></div>
+        <div class="clear"></div>
+        <div id="three" class="sliding-pane"><div>
+            <h1>Three</h1>
+            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
+            ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
+            sodales sagittis magna. </p>
+        </div></div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
